@@ -2,4 +2,4 @@
 *Final project for Advanced Applications in Machine Learning*
 
   - [Final report](Report.pdf)
-  - [Presentation slides](Project+Presentation.pdf)
+  - [Presentation slides](Project Presentation.pdf)
