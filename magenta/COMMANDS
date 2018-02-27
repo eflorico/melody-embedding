@@ -1,0 +1,62 @@
+commands
+
+(./magenta/bazel-bin/magenta/scripts/convert_dir_to_note_sequences \
+--input_dir=lmd_matched \
+--output_file=./lmd_matched.seqs \
+--recursive=True && \
+./magenta/bazel-bin/magenta/models/melody_rnn/melody_rnn_create_dataset \
+--input=./lmd_matched.seqs \
+--output_dir=lmd_matched.recs \
+--config=basic_rnn \
+--learn_initial_state=1) 2>&1 | tee log
+
+./magenta/bazel-bin/magenta/models/melody_rnn/melody_rnn_train \
+--sequence_example_file=all_matched.recs/training_melodies.tfrecord \
+--run_dir=all_matched.models \
+--id_file=all_matched.recs/melody-ids.csv \
+--config=attention_rnn \
+--summary_frequency=10 \
+--hparams="{'batch_size':256,'rnn_layer_sizes':[64,64]}" \
+--learn_initial_state=1
+
+./magenta/bazel-bin/magenta/models/melody_rnn/melody_rnn_train \
+--sequence_example_file=all_matched.recs/eval_melodies.tfrecord \
+--run_dir=all_matched.models \
+--id_file=all_matched.recs/melody-ids.csv \
+--config=attention_rnn \
+--summary_frequency=10 \
+--hparams="{'batch_size':256,'rnn_layer_sizes':[64,64]}" \
+--learn_initial_state=1
+
+./magenta/bazel-bin/magenta/models/melody_rnn/melody_rnn_generate \
+--config=attention_rnn \
+--run_dir=all_matched.models \
+--output_dir=output \
+--num_outputs=10 \
+--num_steps=128 \
+--primer_melody="[60, -2, 60, -2, 67, -2, 67, -2]"
+
+for i in 329 330 331 332 333 334; do
+./magenta/bazel-bin/magenta/models/melody_rnn/melody_rnn_export_training_melody \
+--sequence_example_file=all_matched.recs/training_melodies.tfrecord \
+--record_id=$i \
+--config=attention_rnn \
+--hparams="{'batch_size':256,'rnn_layer_sizes':[64,64]}"; done
+
+
+./magenta/bazel-bin/magenta/models/melody_rnn/melody_rnn_export_training_melody \
+--sequence_example_file=all_matched.recs/training_melodies.tfrecord \
+--record_ids=333 \
+--config=attention_rnn \
+--hparams="{'batch_size':256,'rnn_layer_sizes':[64,64]}"
+
+./magenta/bazel-bin/magenta/models/melody_rnn/melody_rnn_generate \
+--config=attention_rnn \
+--hparams="{'batch_size':256,'rnn_layer_sizes':[64,64]}" \
+--run_dir=all_matched.models \
+--output_dir=output \
+--num_outputs=10 \
+--num_steps=128 \
+--learn_initial_state=1 \
+--id_file=all_matched.recs/melody-ids.csv \
+--record_a=333

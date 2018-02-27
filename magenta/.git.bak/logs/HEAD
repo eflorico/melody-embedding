@@ -1,0 +1,106 @@
+0000000000000000000000000000000000000000 b1d28cc92b192e2eba2447376bce65b124820881 Eric Wolf <eric.wolf123@gmail.com> 1481195278 +0800	clone: from https://github.com/tensorflow/magenta.git
+b1d28cc92b192e2eba2447376bce65b124820881 61578d19ceaca16475be638b8e4eadac82b714af Eric Wolf <eric.wolf123@gmail.com> 1481705349 +0800	pull: Fast-forward
+61578d19ceaca16475be638b8e4eadac82b714af 9050b24440974396d25ef32e95a14b52fb4b6cfd Eric Wolf <eric.wolf123@gmail.com> 1481953177 +0800	pull: Fast-forward
+9050b24440974396d25ef32e95a14b52fb4b6cfd 40367f1445561b07f32277073db2c6450ad38b0b Eric Wolf <eric.wolf123@gmail.com> 1483429029 +0800	pull: Fast-forward
+40367f1445561b07f32277073db2c6450ad38b0b ccc13d653f12fa4cc99f3b009273db95c41dcf43 Eric Wolf <eric.wolf123@gmail.com> 1483540640 +0800	commit: Added unique IDs to pipeline
+ccc13d653f12fa4cc99f3b009273db95c41dcf43 b175a65fcc018a13e4cb9ff9cb6c6e4538205561 Eric Wolf <eric.wolf123@gmail.com> 1483541349 +0800	commit: Learning embedding
+b175a65fcc018a13e4cb9ff9cb6c6e4538205561 a4f1111c2a278de40de1aa933b7ee061af922329 Eric Wolf <eric.wolf123@gmail.com> 1483541851 +0800	commit: Added file for ID pipeline
+a4f1111c2a278de40de1aa933b7ee061af922329 fa7f507384508beca07aa3f97771970b28aa240f Eric Wolf <eric.wolf123@gmail.com> 1483541871 +0800	commit: Updated calls for newer TensorFlow version
+fa7f507384508beca07aa3f97771970b28aa240f 15420f3347e8f82264baca6640f8599fbea566f8 Eric Wolf <eric.wolf123@gmail.com> 1483542451 +0800	commit: Fixed
+15420f3347e8f82264baca6640f8599fbea566f8 6fdf10be4f6c724675a52d4c0c2280463664f6ba Eric Wolf <eric.wolf123@gmail.com> 1483542857 +0800	commit: Fixed 'True'
+6fdf10be4f6c724675a52d4c0c2280463664f6ba 319eda15d4b4465fa9c88dac59277b94db0b5aa6 Eric Wolf <eric.wolf123@gmail.com> 1483544018 +0800	commit: Moved ID pipeline to pipelines_common
+319eda15d4b4465fa9c88dac59277b94db0b5aa6 105d7ee526027e25cb1509a03dd25ab967e1de7e Eric Wolf <eric.wolf123@gmail.com> 1483544088 +0800	commit: Fixed '++'
+105d7ee526027e25cb1509a03dd25ab967e1de7e 118a9a0f30e75bc4c6bba9d5156d7847afc539b1 Eric Wolf <eric.wolf123@gmail.com> 1483544755 +0800	commit: Fixed indentation
+118a9a0f30e75bc4c6bba9d5156d7847afc539b1 41a2212c0bdb032c96a86202a1250de0008efed5 Eric Wolf <eric.wolf123@gmail.com> 1483544826 +0800	commit: Fixed import
+41a2212c0bdb032c96a86202a1250de0008efed5 38ebf45ab4137e694a3546e8649bcdc19e0afb4b Eric Wolf <eric.wolf123@gmail.com> 1483545133 +0800	commit: Added import
+38ebf45ab4137e694a3546e8649bcdc19e0afb4b b12ce882b3ae74dd31bf86244ef5f8ad44d7f9c7 Eric Wolf <eric.wolf123@gmail.com> 1483545223 +0800	commit: Changed type of ID pipeline to Melody
+b12ce882b3ae74dd31bf86244ef5f8ad44d7f9c7 1a31d9dcf282a205e4620636d179cbc5425cd71a Eric Wolf <eric.wolf123@gmail.com> 1483545346 +0800	commit: Using own field for mappings
+1a31d9dcf282a205e4620636d179cbc5425cd71a d550cb3248a17112b5f4e570732f40e9d6ee35a9 Eric Wolf <eric.wolf123@gmail.com> 1483545540 +0800	commit: Fixed ID pipeline
+d550cb3248a17112b5f4e570732f40e9d6ee35a9 f7343cd395f8b887ac871aea71b8485c4014c0aa Eric Wolf <eric.wolf123@gmail.com> 1483545859 +0800	commit: Reading learn_initial_state flag into config
+f7343cd395f8b887ac871aea71b8485c4014c0aa 19cd17ea83bd6c4fd0830e03e8e8581b925896fd Eric Wolf <eric.wolf123@gmail.com> 1483546004 +0800	commit: Fixed dict iteration
+19cd17ea83bd6c4fd0830e03e8e8581b925896fd 969c48268e862fd62ae672c28e16049c5485c8f2 Eric Wolf <eric.wolf123@gmail.com> 1483546115 +0800	commit: Fixed format string
+969c48268e862fd62ae672c28e16049c5485c8f2 242150d24abba095cbaa9498db3bd301f98e84a6 Eric Wolf <eric.wolf123@gmail.com> 1483546373 +0800	commit: Fixed '++'
+242150d24abba095cbaa9498db3bd301f98e84a6 44577ab4ca698b47724f0579145cd13c70bede17 Eric Wolf <eric.wolf123@gmail.com> 1483546500 +0800	commit: Loading context feature
+44577ab4ca698b47724f0579145cd13c70bede17 98ae5bf8606f38092c2eb2923142cdb3262dee4b Eric Wolf <eric.wolf123@gmail.com> 1483547153 +0800	commit: Added id field to queue
+98ae5bf8606f38092c2eb2923142cdb3262dee4b a8893e1dbf0baa82d9cd61898eebc0dc7950d51c Eric Wolf <eric.wolf123@gmail.com> 1483547279 +0800	commit: Added shapes to queue
+a8893e1dbf0baa82d9cd61898eebc0dc7950d51c bedcd65c50019439d7f4917b1007e45f432adf48 Eric Wolf <eric.wolf123@gmail.com> 1483547392 +0800	commit: Fixed record counting
+bedcd65c50019439d7f4917b1007e45f432adf48 1acc067ace24262de75bdc7853f887394ab78c05 Eric Wolf <eric.wolf123@gmail.com> 1483549177 +0800	commit: Not using LSTM state tuple when learning initial state
+1acc067ace24262de75bdc7853f887394ab78c05 5bbe4a2b17cfa5bed420d167ceb5ccffe2021a23 Eric Wolf <eric.wolf123@gmail.com> 1483549222 +0800	commit: Cleaned up
+5bbe4a2b17cfa5bed420d167ceb5ccffe2021a23 7d9ba69391ad4a2795a6ee28cc645c2b504daabb Eric Wolf <eric.wolf123@gmail.com> 1483550223 +0800	commit: Using max id instead of count
+7d9ba69391ad4a2795a6ee28cc645c2b504daabb 0eb2023b0f456cd82c46bc4f47376aa1e37b4f6e Eric Wolf <eric.wolf123@gmail.com> 1483550382 +0800	commit: Fixed record count offset
+0eb2023b0f456cd82c46bc4f47376aa1e37b4f6e 02b96c0db22888d65e8367130e8c28d0e7361323 Eric Wolf <eric.wolf123@gmail.com> 1483550518 +0800	commit: Fixed record count offset
+02b96c0db22888d65e8367130e8c28d0e7361323 69564596e4a7b7eee89ec7feec199ac4ea8accdd Eric Wolf <eric.wolf123@gmail.com> 1483556495 +0800	commit: Added MELODY_START event
+69564596e4a7b7eee89ec7feec199ac4ea8accdd db2990811ebb6378904298715d4ba0b07347e9fa Eric Wolf <eric.wolf123@gmail.com> 1483556510 +0800	commit: Correctly named embedding variable
+db2990811ebb6378904298715d4ba0b07347e9fa 676211fe69d2e031744b457d6703c7bd03153363 Eric Wolf <eric.wolf123@gmail.com> 1483556707 +0800	commit: Priming with MELODY_START
+676211fe69d2e031744b457d6703c7bd03153363 7f930da7902e7b1f34bd9fea04131328b133677a Eric Wolf <eric.wolf123@gmail.com> 1483561374 +0800	commit: Saving embedding properly
+7f930da7902e7b1f34bd9fea04131328b133677a 0a119d2021502ea5cf3bdb061680be24a5209cf6 Eric Wolf <eric.wolf123@gmail.com> 1483561683 +0800	commit: Fixed MELODY_START
+0a119d2021502ea5cf3bdb061680be24a5209cf6 be344e917220735aff0b1a607bcca569f847519b Eric Wolf <eric.wolf123@gmail.com> 1483561778 +0800	commit: Fixed MELODY_START
+be344e917220735aff0b1a607bcca569f847519b 84698fec7c76794f7ed8745b42d9b251694fcb4f Eric Wolf <eric.wolf123@gmail.com> 1483561909 +0800	commit: Fixed MELODY_START
+84698fec7c76794f7ed8745b42d9b251694fcb4f 8883c22d119006aacdfeb19f70a5beb145650351 Eric Wolf <eric.wolf123@gmail.com> 1483563111 +0800	commit: Fixed MELODY_START
+8883c22d119006aacdfeb19f70a5beb145650351 3d7a42a1b32d8d8ebfffdcc5ce97ac00836f9a1f Eric Wolf <eric.wolf123@gmail.com> 1483563447 +0800	commit: Added export embedding script
+3d7a42a1b32d8d8ebfffdcc5ce97ac00836f9a1f baa641bfed3690c9cdd3ab3749143d41e9e42a9f Eric Wolf <eric.wolf123@gmail.com> 1483563500 +0800	commit: Fixed MELODY_START
+baa641bfed3690c9cdd3ab3749143d41e9e42a9f e185ea69dd0c458f5a15b62d1adbf2f1d1def52c Eric Wolf <eric.wolf123@gmail.com> 1483563551 +0800	commit: Fixed MELODY_START
+e185ea69dd0c458f5a15b62d1adbf2f1d1def52c 538770e5ff244b0fa0ba38f67791bf081e18e98a Eric Wolf <eric.wolf123@gmail.com> 1483563588 +0800	commit: Fixed MELODY_START
+538770e5ff244b0fa0ba38f67791bf081e18e98a 9bc2b07c420c937be9df1c350a6d7b7167c6b785 Eric Wolf <eric.wolf123@gmail.com> 1483563644 +0800	commit: Fixed MELODY_START
+9bc2b07c420c937be9df1c350a6d7b7167c6b785 f42fa274b7a8604098d28c182aa544f07cb77d75 Eric Wolf <eric.wolf123@gmail.com> 1483563683 +0800	commit: Fixed MELODY_START
+f42fa274b7a8604098d28c182aa544f07cb77d75 f42fa274b7a8604098d28c182aa544f07cb77d75 Eric Wolf <eric.wolf123@gmail.com> 1483591370 +0800	checkout: moving from master to statetuple
+f42fa274b7a8604098d28c182aa544f07cb77d75 bc7127d5bf715ac10261ad2c624ba52ff30a1f61 Eric Wolf <eric.wolf123@gmail.com> 1483591378 +0800	commit: Using LSTM state tuple
+bc7127d5bf715ac10261ad2c624ba52ff30a1f61 f42fa274b7a8604098d28c182aa544f07cb77d75 Eric Wolf <eric.wolf123@gmail.com> 1483591381 +0800	checkout: moving from statetuple to master
+f42fa274b7a8604098d28c182aa544f07cb77d75 2d5b96ac2beaa0bbfa2b26a151c424f7c518d543 Eric Wolf <eric.wolf123@gmail.com> 1483594792 +0800	commit: Counting records properly
+2d5b96ac2beaa0bbfa2b26a151c424f7c518d543 4b30f9d7f7bbc8eac74c5b5c5f63a78d141a9e86 Eric Wolf <eric.wolf123@gmail.com> 1483594932 +0800	commit: Made training and restoring work
+4b30f9d7f7bbc8eac74c5b5c5f63a78d141a9e86 4f36b77ab320d59efb577dbc38353d8f626da516 Eric Wolf <eric.wolf123@gmail.com> 1483595085 +0800	commit: Made training and restoring work
+4f36b77ab320d59efb577dbc38353d8f626da516 b33d11c24a0e6663edc9778ffe9deccf35832626 Eric Wolf <eric.wolf123@gmail.com> 1483638806 +0800	commit: Faster record counting
+b33d11c24a0e6663edc9778ffe9deccf35832626 cb60c96a6b38a74951abd99dd4b6dab5ab7c31f6 Eric Wolf <eric.wolf123@gmail.com> 1483638950 +0800	commit: Faster record counting
+cb60c96a6b38a74951abd99dd4b6dab5ab7c31f6 784d2df80731e96e44637edca338b1a3a0636ad7 Eric Wolf <eric.wolf123@gmail.com> 1483639081 +0800	commit: Faster record counting
+784d2df80731e96e44637edca338b1a3a0636ad7 5e5d44b59816365caaa7f9680efda1d7fe258216 Eric Wolf <eric.wolf123@gmail.com> 1483688032 +0800	commit: Feeding embedding into graph in batches
+5e5d44b59816365caaa7f9680efda1d7fe258216 527e9d7c059b958f9a49c16039a77c190c3c77f5 Eric Wolf <eric.wolf123@gmail.com> 1483688087 +0800	commit: Feeding num records
+527e9d7c059b958f9a49c16039a77c190c3c77f5 71852b143b7e7977fec99afcfedbd763d8a9a9ff Eric Wolf <eric.wolf123@gmail.com> 1483688266 +0800	commit: Feeding embedding into graph in batches
+71852b143b7e7977fec99afcfedbd763d8a9a9ff 2bf9302312d1f54cef90463ee69486b570c4003d Eric Wolf <eric.wolf123@gmail.com> 1483688297 +0800	commit: Feeding embedding into graph in batches
+2bf9302312d1f54cef90463ee69486b570c4003d 2d3804c9d0537b10bdd3e0fded03012626a3bb17 Eric Wolf <eric.wolf123@gmail.com> 1483688600 +0800	commit: Feeding embedding into graph in batches
+2d3804c9d0537b10bdd3e0fded03012626a3bb17 933e5b86778be6a97a7eb88dfc0ebe65b335b15c Eric Wolf <eric.wolf123@gmail.com> 1483688700 +0800	commit: Feeding embedding into graph in batches
+933e5b86778be6a97a7eb88dfc0ebe65b335b15c 5d62a6f37ee270b79110830744158f310dbf4bf8 Eric Wolf <eric.wolf123@gmail.com> 1483688749 +0800	commit: Feeding embedding into graph in batches
+5d62a6f37ee270b79110830744158f310dbf4bf8 6d12b3eb9d9859da3d41a60f5332e9861565ce56 Eric Wolf <eric.wolf123@gmail.com> 1483688826 +0800	commit: Feeding embedding into graph in batches
+6d12b3eb9d9859da3d41a60f5332e9861565ce56 434f0f560ff3d2a4a3be738ff7bd418fdc5d1170 Eric Wolf <eric.wolf123@gmail.com> 1483688991 +0800	commit: Feeding embedding into graph in batches
+434f0f560ff3d2a4a3be738ff7bd418fdc5d1170 b4a04967619990bfdbfd69df8bedea72b2d6e05c Eric Wolf <eric.wolf123@gmail.com> 1483689129 +0800	commit: Feeding embedding into graph in batches
+b4a04967619990bfdbfd69df8bedea72b2d6e05c 143b19c162040262784c18c7414bed465680a92d Eric Wolf <eric.wolf123@gmail.com> 1483689249 +0800	commit: Feeding embedding into graph in batches
+143b19c162040262784c18c7414bed465680a92d 281560bb4e24e8cc0190c000c20ca547dc02b5a0 Eric Wolf <eric.wolf123@gmail.com> 1483689411 +0800	commit: Feeding embedding into graph in batches
+281560bb4e24e8cc0190c000c20ca547dc02b5a0 2816f0295faffec4bb82564c0c0fce623a15ca17 Eric Wolf <eric.wolf123@gmail.com> 1483689582 +0800	commit: Feeding embedding into graph in batches
+2816f0295faffec4bb82564c0c0fce623a15ca17 4dd9f695eadb3683b596b1cd18c1e014f29f7e6d Eric Wolf <eric.wolf123@gmail.com> 1483689661 +0800	commit: Logging last processed ID
+4dd9f695eadb3683b596b1cd18c1e014f29f7e6d 69adca5b1f6a8c8a815de2809c8574239fd2551b Eric Wolf <eric.wolf123@gmail.com> 1483689818 +0800	commit: Logging last processed ID
+69adca5b1f6a8c8a815de2809c8574239fd2551b f7df10b77200093d428e5e1a80c8908d8f77d2b5 Eric Wolf <eric.wolf123@gmail.com> 1483690412 +0800	commit: Mmapping embedding
+f7df10b77200093d428e5e1a80c8908d8f77d2b5 d4080576efb3415c5f90280967a61a3973a8aea8 Eric Wolf <eric.wolf123@gmail.com> 1483977945 +0800	commit: Added export training melody
+d4080576efb3415c5f90280967a61a3973a8aea8 f691e17feeba595f6150fca9956ab74529d5494f Eric Wolf <eric.wolf123@gmail.com> 1483978354 +0800	commit: Added export training melody
+f691e17feeba595f6150fca9956ab74529d5494f ec3096d05ec76d38cf9d05e88a6b8a201b7f78cb Eric Wolf <eric.wolf123@gmail.com> 1483978526 +0800	commit: Added export training melody
+ec3096d05ec76d38cf9d05e88a6b8a201b7f78cb 7475256c238a8dd5342dbe7218bed7124317521b Eric Wolf <eric.wolf123@gmail.com> 1483978645 +0800	commit: Added export training melody
+7475256c238a8dd5342dbe7218bed7124317521b 0c10280c2026e3081f26d4661cc5fdce2808f928 Eric Wolf <eric.wolf123@gmail.com> 1483978727 +0800	commit: Added export training melody
+0c10280c2026e3081f26d4661cc5fdce2808f928 40a9b4ef1bf9a78a0c5abe3e5ef329cd10707791 Eric Wolf <eric.wolf123@gmail.com> 1483978795 +0800	commit: Added export training melody
+40a9b4ef1bf9a78a0c5abe3e5ef329cd10707791 9df6cafbd73e3759354c6e6edfc4ffc946dc2e31 Eric Wolf <eric.wolf123@gmail.com> 1483978865 +0800	commit: Added export training melody
+9df6cafbd73e3759354c6e6edfc4ffc946dc2e31 6cc64a5e982cc118a0e7a7b4166bf37242365211 Eric Wolf <eric.wolf123@gmail.com> 1483978896 +0800	commit: Added export training melody
+6cc64a5e982cc118a0e7a7b4166bf37242365211 d6337162c5527eee70779f3cfb97358354b9782b Eric Wolf <eric.wolf123@gmail.com> 1483979022 +0800	commit: Added export training melody
+d6337162c5527eee70779f3cfb97358354b9782b 6ac5c6e3df059ba4c30ae0cff7d3c8a323074f22 Eric Wolf <eric.wolf123@gmail.com> 1483979079 +0800	commit: Added export training melody
+6ac5c6e3df059ba4c30ae0cff7d3c8a323074f22 ee55c7fe9ef19a9870005f663766841577a17a0b Eric Wolf <eric.wolf123@gmail.com> 1483979109 +0800	commit: Added export training melody
+ee55c7fe9ef19a9870005f663766841577a17a0b d8a42712aa25b9be30c37633ea0efd2fc3005f18 Eric Wolf <eric.wolf123@gmail.com> 1483979257 +0800	commit: Added export training melody
+d8a42712aa25b9be30c37633ea0efd2fc3005f18 234a57d3dc77a1baf850b6cc01be407bda9b51df Eric Wolf <eric.wolf123@gmail.com> 1483979321 +0800	commit: Added export training melody
+234a57d3dc77a1baf850b6cc01be407bda9b51df 9c9d0afeb9f5a80ae37b9802fecbc28e71256599 Eric Wolf <eric.wolf123@gmail.com> 1483979403 +0800	commit: Added export training melody
+9c9d0afeb9f5a80ae37b9802fecbc28e71256599 91677df45b6ad234e543f53069b253fe04f28892 Eric Wolf <eric.wolf123@gmail.com> 1483979453 +0800	commit: Added export training melody
+91677df45b6ad234e543f53069b253fe04f28892 3b924af2ea22c6daaabadcbe39678804fdbcfc35 Eric Wolf <eric.wolf123@gmail.com> 1483979565 +0800	commit: Added export training melody
+3b924af2ea22c6daaabadcbe39678804fdbcfc35 ea18e53c2db9a1d02b58187e063fe9be49ca024b Eric Wolf <eric.wolf123@gmail.com> 1483979673 +0800	commit: Added export training melody
+ea18e53c2db9a1d02b58187e063fe9be49ca024b 18f5c55bed9ae98b4e93d0190f13326666defbd3 Eric Wolf <eric.wolf123@gmail.com> 1483980123 +0800	commit: Added export training melody
+18f5c55bed9ae98b4e93d0190f13326666defbd3 6b15eeac867deac5cb5c68f75bd28be1689a67c4 Eric Wolf <eric.wolf123@gmail.com> 1483980147 +0800	commit: Added export training melody
+6b15eeac867deac5cb5c68f75bd28be1689a67c4 ce7b2747bd4289dd71aa8dd0e241996e5fdff2f2 Eric Wolf <eric.wolf123@gmail.com> 1483980418 +0800	commit: Added export training melody
+ce7b2747bd4289dd71aa8dd0e241996e5fdff2f2 c0e3890648db75dea51896ca8e0e696d6649b26d Eric Wolf <eric.wolf123@gmail.com> 1483981247 +0800	commit: Added export training melody
+c0e3890648db75dea51896ca8e0e696d6649b26d d799184fb5e38e756b255d3b31464db007eb13f8 Eric Wolf <eric.wolf123@gmail.com> 1483989684 +0800	commit: Allowing export of multiple melodies
+d799184fb5e38e756b255d3b31464db007eb13f8 5e9da7631ec3c2f44b6575280b4d82add39b7a68 Eric Wolf <eric.wolf123@gmail.com> 1483989984 +0800	commit: Initial state generation
+5e9da7631ec3c2f44b6575280b4d82add39b7a68 8db1c6c4672cb9dd76b4af0731bbb3afbfaac265 Eric Wolf <eric.wolf123@gmail.com> 1483990599 +0800	commit: Initial state generation
+8db1c6c4672cb9dd76b4af0731bbb3afbfaac265 286bae49029cfbf09dc402263cb4d6e8b6c2f0ab Eric Wolf <eric.wolf123@gmail.com> 1483990627 +0800	commit: Initial state generation
+286bae49029cfbf09dc402263cb4d6e8b6c2f0ab db6750778c1143c6992a1079ac933ad758c9c6c0 Eric Wolf <eric.wolf123@gmail.com> 1483990650 +0800	commit: Initial state generation
+db6750778c1143c6992a1079ac933ad758c9c6c0 01b644ab2177686426d530a3145fc5efe57babfe Eric Wolf <eric.wolf123@gmail.com> 1483990773 +0800	commit: Initial state generation
+01b644ab2177686426d530a3145fc5efe57babfe 263228cdf31a2aefec5cd8f07a260b34f337d3b5 Eric Wolf <eric.wolf123@gmail.com> 1483991094 +0800	commit: Initial state generation
+263228cdf31a2aefec5cd8f07a260b34f337d3b5 f10be6e719d7e977f1d34b4513ab55df832a7512 Eric Wolf <eric.wolf123@gmail.com> 1483991490 +0800	commit: Melody export
+f10be6e719d7e977f1d34b4513ab55df832a7512 967d00df2987e0a44eeccb7d8b9258efb5851570 Eric Wolf <eric.wolf123@gmail.com> 1483991517 +0800	commit: Melody export
+967d00df2987e0a44eeccb7d8b9258efb5851570 3abe69fd79ccf0aaad81a03d54fef4f1ac94e3d9 Eric Wolf <eric.wolf123@gmail.com> 1483991557 +0800	commit: Melody export
+3abe69fd79ccf0aaad81a03d54fef4f1ac94e3d9 1ed03b599f17a280f1e5e695411e6903b0478d86 Eric Wolf <eric.wolf123@gmail.com> 1483991628 +0800	commit: Melody export
+1ed03b599f17a280f1e5e695411e6903b0478d86 552558e59248b17322615919d8d2e7cc7ffbb855 Eric Wolf <eric.wolf123@gmail.com> 1484034974 +0800	commit: Multi file export
+552558e59248b17322615919d8d2e7cc7ffbb855 f1041a7046c34d0f64c1c929ae6084016d9dfb8f Eric Wolf <eric.wolf123@gmail.com> 1484035018 +0800	commit: Multi file export
+f1041a7046c34d0f64c1c929ae6084016d9dfb8f fc9a11eba88687297fcf3e101ee6378a887b26fe Eric Wolf <eric.wolf123@gmail.com> 1484035199 +0800	commit: Multi file export
+fc9a11eba88687297fcf3e101ee6378a887b26fe 9b10cd4426236e822884340ffa6ee6fdd2c09634 Eric Wolf <eric.wolf123@gmail.com> 1484112007 +0800	commit: Fixed blending
